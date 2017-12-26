@@ -9,6 +9,8 @@ indexedFields:
     - Source
     - SourceUrl
     - Title
+    - Keywords
+    - Description
 indexedAlias:
     Author:
       - Creator
