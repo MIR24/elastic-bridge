@@ -37,7 +37,7 @@ foreach($source as $one)
   }
   catch(Exception $e)
   {
-    $log->error("Elastic resturns", [$e]);
+    $log->error("Elastic returns", [$e]);
     $log->error("Index status update failed", $params);
     continue;
   }
